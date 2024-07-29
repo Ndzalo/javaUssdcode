@@ -1,0 +1,149 @@
+import java.util.Objects;
+import java.util.Scanner;
+
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the code: ");
+        String code = sc.nextLine();
+        if (code.equals("*111#")) {
+
+
+            System.out.println("1)Buy ");
+            System.out.println("2)Voice");
+            System.out.println("3)Just4You");
+            System.out.println("Select menu");
+            int menu = sc.nextInt();
+            int code2;
+            int code3;
+            int code1;
+            switch (menu) {
+                case 1:
+
+                    System.out.println("1)Combo ");
+                    System.out.println("2)whatsApp Bundles");
+                    System.out.println("Enter the code: ");
+                    code1 = sc.nextInt();
+                    if (code1 == 1) {
+                        System.out.println("1) 60 VC min+1GB WA-R11");
+                        System.out.println("2) 60 VC min+60MB-R12");
+                        System.out.println("Enter the code: ");
+                        code2 = sc.nextInt();
+                        if (code2 == 1 || code2 == 2) {
+                            System.out.println("Pay with : ");
+                            System.out.println("1)airtime");
+                            System.out.println("Enter the code: ");
+                            code3 = sc.nextInt();
+                            if (code3 == 1) {
+                                System.out.println("You have successfully bought your bundles  ");
+                            } else {
+                                System.out.println("Invalid option  ");
+                            }
+
+                        }
+                    } else if (code1 == 2) {
+                        System.out.println("1) 1.2GB 30 days-R37");
+                        System.out.println("2) 300MB 7 days-R13");
+                        System.out.println("3) 250MB for today-R5");
+                        System.out.println("Enter the code: ");
+                        code2 = sc.nextInt();
+                        if (code2 == 1 || code2 == 2 || code2 == 3) {
+                            System.out.println("Pay with : ");
+                            System.out.println("1)airtime");
+                            System.out.println("2)Back");
+                            System.out.println("Enter the code: ");
+                            code3 = sc.nextInt();
+                            if (code3 == 1) {
+                                System.out.println("You have successfully bought your bundles  ");
+                            } else {
+                                System.out.println("Invalid option  ");
+                            }
+
+
+                        }
+                    }
+                case 2:
+                    System.out.println("1)Today ");
+                    System.out.println("2)7 Days");
+                    System.out.println("Enter the code: ");
+                    code1 = sc.nextInt();
+                    if (code1 == 1) {
+                        System.out.println("1) 60VC min-R6  ");
+                        System.out.println("2) 120VC min-R14  ");
+                        System.out.println("3) 240VC min-21  ");
+                        System.out.println("Select code");
+                        code2 = sc.nextInt();
+                        if (code2 == 1 || code2 == 2 || code2 == 3) {
+                            System.out.println("Pay with : ");
+                            System.out.println("1)airtime");
+                            System.out.println("Enter the code: ");
+                            code3 = sc.nextInt();
+                            if (code3 == 1) {
+                                System.out.println("You have successfully bought your bundles  ");
+                            } else {
+                                System.out.println("Invalid option  ");
+                            }
+
+
+                        }
+
+                    }
+                case 3:
+                    System.out.println("1)Voice ");
+                    System.out.println("2)Town");
+                    System.out.println("3)Data");
+                    code1 = sc.nextInt();
+                    if (code1 == 1) {
+                        System.out.println("1) 60VC min-R8  ");
+                        System.out.println("2) 120VC min-R18  ");
+                        System.out.println("3) 240VC min-20  ");
+                        System.out.println("Select code");
+                        code2 = sc.nextInt();
+                        if (code2 == 1 || code2 == 2 || code2 == 3) {
+                            System.out.println("Pay with : ");
+                            System.out.println("1)airtime");
+                            System.out.println("Enter the code: ");
+                            code3 = sc.nextInt();
+                            if (code3 == 1) {
+                                System.out.println("You have successfully bought your bundles  ");
+                            } else {
+                                System.out.println("Invalid option  ");
+                            }
+
+
+                        }
+
+
+
+
+
+
+                    }
+                    else if(code1 == 2){
+                        System.out.println("1) 60VC min-R8  ");
+                        System.out.println("2) 120VC min-R18  ");
+                        System.out.println("3) 240VC min-20  ");
+                        System.out.println("Select code");
+                        code2 = sc.nextInt();
+                        if (code2 == 1 || code2 == 2 || code2 == 3) {
+                            System.out.println("Pay with : ");
+                            System.out.println("1)airtime");
+                            System.out.println("Enter the code: ");
+                            code3 = sc.nextInt();
+                            if (code3 == 1) {
+                                System.out.println("You have successfully bought your bundles  ");
+                            } else {
+                                System.out.println("Invalid option  ");
+                            }
+
+
+                        }
+                    }
+
+            }
+        }
+    }
+}
